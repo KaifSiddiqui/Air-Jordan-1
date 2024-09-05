@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Merienda-light;
+    src: url(./assets/fonts/Merienda/static/Merienda-SemiBold.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5vw;
+    background-color: #E7E3DA;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    font-family: Merienda-Light;
+    font-weight: 300;
+
+}
+.logo img{
+    width: 4.5vw;
+}
+.nav_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+.nav_2 a{
+    color: black;
+    font-size: 1.6vw;
+    font-weight: 500;
+    font-family: Merienda-Light;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.container{
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+    background-color: #E7E3DA
+
+}
+.left{
+    width: 45%;
+    height: 100%;
+    /* background-color: lightblue; */
+}
+.left h1{
+    font-size: 5.5vw;
+    line-height: 5.5vw;
+    padding-left: 5vw;
+    margin-top: 5vw;
+}
+.left h2{
+    font-size: 3.5vw;
+    padding-left: 5vw;
+    margin-top: .6vw;
+    font-family:  Merienda-Light;
+
+}
+.contant_text{ 
+    margin-top: 2vw;
+    padding-left: 5vw;
+    /* background-color: red; */
+}
+.contant_text p{
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 3vw;
+}
+p span{
+    color: #434344a6;
+    font-size: 2vw;
+    line-height: 2.5vw;
+}
+.contant_text button{
+    padding: 15px 35px;
+    /* margin: 15px 0; */
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #006F9C;
+    text-transform: uppercase;
+}
+.icon{
+    gap: 5vw;
+    /* margin-top: 2    px; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5vw;
+    background-color: lightslategrey;
+}
+.icon i {
+    font-size: 3vw;
+    color: #00A1C8;
+}
+.right{
+    width: 55%;
+    height: 100%;
+
+}
+.right img{ 
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 45vw;
+    rotate: 340deg;
+    /* background-color: red; */
+}
+.range{
+    padding-left: 5px;
+    position: absolute;
+    top: 85%;
+    left: 84%;
+}
+h4{
+    font-size: 1.5vw;
+}
+.line_box{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 29px;
+
+}
+
+.line_box .line{
+    width: 2px;
+    height: 10px;
+    background-color: black;
+}
+.size{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 28px;
+
+}
+.size p{
+    width: 2px;
+    height: 1px;
+    margin-top: 5px;
+    background-color: black;
+}
